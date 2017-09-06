@@ -1,4 +1,6 @@
+/// <reference types="jquery" />
 import { Component } from '@angular/core';
+// add imports here for jquery related js libs
 
 @Component({
   selector: 'sample-component',

@@ -133,7 +133,7 @@ module.exports = class extends Generator {
     // Copy package.json
     if (this.props.testFramework === 'jest') {
       this.fs.copyTpl(
-      this.templatePath('_package_jest.json'),
+        this.templatePath('_package_jest.json'),
         this.destinationPath('package.json'),
         {
           props: this.props
@@ -151,7 +151,7 @@ module.exports = class extends Generator {
       );
     } else {
       this.fs.copyTpl(
-      this.templatePath('_package.json'),
+        this.templatePath('_package.json'),
         this.destinationPath('package.json'),
         {
           props: this.props
@@ -215,6 +215,6 @@ module.exports = class extends Generator {
   }
 
   install() {
-    this.installDependencies({bower: false});
+    this.installDependencies({ bower: false });
   }
 };
