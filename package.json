@@ -1,12 +1,11 @@
 {
-  "name": "generator-angular2-library",
-  "version": "11.2.0",
+  "name": "generator-angular2-jquery-library",
+  "version": "1.0.0",
   "description": "Generator to create an Angular 2 library",
   "homepage": "https://github.com/jvandemo/generator-angular2-library",
   "author": {
-    "name": "Jurgen Van de Moere",
-    "email": "jurgen.van.de.moere@gmail.com",
-    "url": "http://www.jvandemo.com"
+    "name": "Adam Bodansky",
+    "email": "bodansky.adam@apertus.uni-nke.hu"
   },
   "files": [
     "generators"
@@ -33,7 +32,7 @@
     "gulp-nsp": "^2.4.1",
     "gulp-coveralls": "^0.1.4"
   },
-  "repository": "jvandemo/generator-angular2-library",
+  "repository": "https://github.com/badam1/generator-angular2-jquery-library",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
