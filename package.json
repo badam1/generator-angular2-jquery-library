@@ -1,6 +1,6 @@
 {
   "name": "generator-angular2-jquery-library",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generator to create an Angular 2 library",
   "homepage": "https://github.com/jvandemo/generator-angular2-library",
   "author": {
