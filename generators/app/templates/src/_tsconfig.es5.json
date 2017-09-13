@@ -6,6 +6,7 @@
     "baseUrl": ".",
     "stripInternal": true,
     "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,    
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "outDir": "../build",
@@ -18,7 +19,7 @@
     "types": []
   },
   "angularCompilerOptions": {
-    "annotateForClosureCompiler": true,
+    "annotateForClosureCompiler": false,
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
     "flatModuleOutFile": "<%= props.libraryName.kebabCase %>.js",

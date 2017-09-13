@@ -3,6 +3,8 @@
   "compilerOptions": {
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,   
+    "annotateForClosureCompiler": false,    
     "outDir": "../out-tsc/spec",
     "module": "commonjs",
     "target": "es6",
